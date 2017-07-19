@@ -1,0 +1,23 @@
+
+.ellipsis-plus {
+    width:100%;
+    position:relative;
+    line-height:1.5
+}
+.ellipsis-plus-button {
+    padding-top:0;
+    padding-bottom:0;
+    border:0;
+    font-size: 1em;
+    vertical-align: middle;
+    color: #8590a6;
+    outline: none;
+    line-height: 1;
+    background-color: transparent
+}
+.ellipsis-plus-ellipsis {
+    display: inline-block
+}
+.ellipsis-plus-txt {
+    font-size: inherit
+}

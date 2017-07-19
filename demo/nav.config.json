@@ -1,0 +1,12 @@
+[
+  {
+    "title": "JS Components",
+    "list": [
+      {
+        "path": "/ellipsis",
+        "name": "Ellipsis",
+        "icon": "ellipsis"
+      }
+    ]
+  }
+]

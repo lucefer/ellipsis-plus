@@ -1,0 +1,40 @@
+{
+  "name": "ellipsis-plus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config ./build/webpack.production.config.js --progress --colors",
+    "demo": "webpack --config ./build/webpack.demo.config.js --progress --colors"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-latest": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "eslint-loader": "^1.9.0",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "html-webpack-plugin": "^2.28.0",
+    "postcss": "^6.0.1",
+    "postcss-bem": "^0.4.1",
+    "postcss-cssnext": "^2.11.0",
+    "postcss-loader": "^2.0.5",
+    "postcss-position": "^0.5.0",
+    "postcss-px2rem": "^0.3.0",
+    "postcss-salad": "^2.0.1",
+    "postcss-short": "^4.1.0",
+    "postcss-title": "^1.0.3",
+    "style-loader": "^0.18.2",
+    "vue": "^2.3.4",
+    "vue-loader": "^12.0.0",
+    "vue-router": "^2.5.3",
+    "vue-template-compiler": "^2.4.1",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
