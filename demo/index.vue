@@ -14,6 +14,7 @@
     background-color: #000;
     -webkit-overflow-scrolling: touch;
     user-select: none;
+    color: #FFF;
   }
 
   a {
