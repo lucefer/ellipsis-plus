@@ -2,6 +2,7 @@ import Vue from 'vue'
 import App from './index.vue'
 import routes from './route'
 import ellipsisPlus from '../index'
+import ellipsisDemo from '../src/ellipsis-plus-demo'
 import VueRouter from 'vue-router'
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -10,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 Vue.component(ellipsisPlus.name, ellipsisPlus)
+Vue.component(ellipsisDemo.name, ellipsisDemo)
 Vue.use(VueRouter)
 
 const router = new VueRouter({

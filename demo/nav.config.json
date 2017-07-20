@@ -6,6 +6,11 @@
         "path": "/ellipsis",
         "name": "Ellipsis",
         "icon": "ellipsis"
+      },
+      {
+        "path": "/ellipsisDemo",
+        "name": "EllipsisDemo",
+        "icon": "ellipsisDemo"
       }
     ]
   }
