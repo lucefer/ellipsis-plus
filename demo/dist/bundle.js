@@ -10619,6 +10619,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
       return;
     }
     var everywidth = this.$refs.txt.offsetWidth;
+    var lineHeight = this.$refs.container.offsetHeight;
     this.$refs.txt.innerHTML = this.text;
     var containerWidth = this.$refs.container.offsetWidth;
     var btnWidth = 0;
@@ -10649,7 +10650,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     }
 
     var style = getComputedStyle(this.$refs.container, null);
-    var lineHeight = parseFloat(style['lineHeight'].replace('px', ''));
+
 
     this.$refs.txt.innerHTML = this.text;
     if (Math.floor(this.$refs.container.offsetHeight / lineHeight) <= this.line) {

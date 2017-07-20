@@ -51,6 +51,7 @@
         return
       }
       let everywidth = this.$refs.txt.offsetWidth
+      let lineHeight = this.$refs.container.offsetHeight
       this.$refs.txt.innerHTML = this.text
       let containerWidth = this.$refs.container.offsetWidth
       let btnWidth = 0
@@ -81,7 +82,7 @@
       }
 
       let style = getComputedStyle(this.$refs.container, null)
-      let lineHeight = parseFloat(style['lineHeight'].replace('px', ''))
+      // let lineHeight = parseFloat(style['lineHeight'].replace('px', ''))
 
       this.$refs.txt.innerHTML = this.text
       if (Math.floor(this.$refs.container.offsetHeight / lineHeight) <= this.line) {
