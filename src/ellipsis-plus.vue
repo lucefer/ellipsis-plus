@@ -1,6 +1,6 @@
 <template>
   <div class="ellipsis-plus" ref="container">
-    <span class="ellipsis-plus-txt" ref="txt">中</span><span class="ellipsis-plus-ellipsis" ref="ellipsis" :style="{'display':show?'none':'inline-block'}">{{ ellipsis }}</span><button class="ellipsis-plus-button" v-if="showButton" :style="{ 'margin-left' : (show ? (marginLeft+'px'):collapseMarginLeft+'px')}" ref="more" @click="handleClick">{{ show ? collapseText: expandText }}</button>
+    <span class="ellipsis-plus-txt" ref="txt">&nbsp;</span><span class="ellipsis-plus-ellipsis" ref="ellipsis" :style="{'display':show?'none':'inline-block'}">{{ ellipsis }}</span><button class="ellipsis-plus-button" v-if="showButton" :style="{ 'margin-left' : (show ? (marginLeft+'px'):collapseMarginLeft+'px')}" ref="more" @click="handleClick">{{ show ? collapseText: expandText }}</button>
   </div>
 </template>
 <script>
